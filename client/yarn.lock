@@ -184,7 +184,7 @@
     "universal-analytics" "0.4.23"
     "uuid" "8.3.2"
 
-"@angular/common@~11.2.10":
+"@angular/common@>=8.0.0", "@angular/common@~11.2.10":
   "integrity" "sha512-eguQEg5GQW1geUa9w00Nabz1BZKOj3rR1Wm6pYlLRF7KdWMDvpJ9xkG2P0X7YoqnWxX8GPqcsl2J3Ds+KDXJLA=="
   "resolved" "https://registry.npmjs.org/@angular/common/-/common-11.2.10.tgz"
   "version" "11.2.10"
@@ -224,7 +224,7 @@
   "resolved" "https://registry.npmjs.org/@angular/compiler/-/compiler-9.0.0.tgz"
   "version" "9.0.0"
 
-"@angular/core@~11.2.10":
+"@angular/core@>=8.0.0", "@angular/core@~11.2.10":
   "integrity" "sha512-1nZGSVZPvTA6rFJhoivcUKm2YBx9A+569cV1UTPlXjcpO+wNcrrXG+6yjxS2wAffTWEQ7xA0ajyo8mZrpqqw9Q=="
   "resolved" "https://registry.npmjs.org/@angular/core/-/core-11.2.10.tgz"
   "version" "11.2.10"
@@ -1114,6 +1114,11 @@
     "loader-utils" "^2.0.0"
     "merge-source-map" "^1.1.0"
     "schema-utils" "^2.7.0"
+
+"@kolkov/ngx-gallery@^1.2.3":
+  "integrity" "sha512-Dpnhwq3DGPSXrNt65gexo+/Smb2L0bne14A0WONN04+racETtcY33fqFvNWfRw5Nvk2Eza+sq95eEA0NbgF/6g=="
+  "resolved" "https://registry.npmjs.org/@kolkov/ngx-gallery/-/ngx-gallery-1.2.3.tgz"
+  "version" "1.2.3"
 
 "@ngtools/webpack@11.2.9":
   "integrity" "sha512-UdWtJCfGfwQd+MSOyAXUE/o8IOQFwnWeh1twoyVh0XTx4I5dcZfj4r3qFLEUF05zFh25j8lUCbNQN9v4IJmA/A=="
@@ -8751,7 +8756,7 @@
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   "version" "1.14.1"
 
-"tslib@^2.0.0", "tslib@^2.2.0":
+"tslib@^1.9.3", "tslib@^2.0.0", "tslib@^2.2.0":
   "integrity" "sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.2.0.tgz"
   "version" "2.2.0"
